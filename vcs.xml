@@ -1,0 +1,30 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://172.16.0.136:9091" />
+          <option name="userName" value="liaoyingwen" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.31.75:9980" />
+          <option name="userName" value="leonemzhang@gmail.com" />
+        </UrlAndUserName>
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Subject" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
+  </component>
+</application>

@@ -1,0 +1,72 @@
+<keymap version="1" name="VSCode 副本 copy" parent="VSCode">
+  <action id="$EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="ActivateProjectToolWindow" />
+  <action id="Adtui.ZoomInAction">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 0" />
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl numpad6" />
+  </action>
+  <action id="DSM.ZoomIn" />
+  <action id="Debug" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl numpad3" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+  </action>
+  <action id="ExpandAll" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExternalSystem.ExpandAll" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="Graph.RouteEdges" />
+  <action id="Images.Editor.ZoomIn" />
+  <action id="Maven.ExpandAll" />
+  <action id="PinBalloonAction">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="UML.ZoomIn" />
+  <action id="UpdateRunningApplication">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="编辑器EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+</keymap>

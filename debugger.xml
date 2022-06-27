@@ -1,0 +1,117 @@
+<application>
+  <component name="DebuggerSettings">
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="jdk.internal.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.junit.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javassist.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.apache.webbeans.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.ibm.ws.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="androidx.compose.runtime.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
+  </component>
+  <component name="NodeRendererSettings">
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.ArrayList" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.util.ArrayList" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.lang.Long" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.lang.Long" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
+  </component>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+  </component>
+</application>

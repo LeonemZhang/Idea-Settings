@@ -1,0 +1,13 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="mysql.8">
+      <artifact />
+      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.25" />
+    </driver>
+    <driver id="java.sql.Driver" name="User Driver" driver-class="com.kingbase8.Driver">
+      <library>
+        <url>file://D:/maven/repository/KingBase/kingbase8.6.0-8.6.0.jar</url>
+      </library>
+    </driver>
+  </component>
+</application>

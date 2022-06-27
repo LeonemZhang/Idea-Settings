@@ -1,0 +1,6 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
+</keymap>

@@ -1,0 +1,23 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="java">
+      <display-name>Connection (java.sql)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("nativeSQL").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareCall").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareCall").withParameters("java.lang.String", "int", "int").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareCall").withParameters("java.lang.String", "int", "int", "int").definedInClass("java.sql.Connection"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareStatement").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareStatement").withParameters("java.lang.String", "int").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareStatement").withParameters("java.lang.String", "int", "int").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareStatement").withParameters("java.lang.String", "int", "int", "int").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareStatement").withParameters("java.lang.String", "int[]").definedInClass("java.sql.Connection"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareStatement").withParameters("java.lang.String", "java.lang.String[]").definedInClass("java.sql.Connection"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>String.format (java.lang)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("format").withParameters("java.lang.String", "java.lang.Object...").definedInClass("java.lang.String"))]]></place>
+    </injection>
+  </component>
+</application>
