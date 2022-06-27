@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="项目 'course'" />
-    <option name="defaultScopeName" value="项目 'course'" />
+    <option name="customScope" value="所有位置" />
+    <option name="defaultScopeName" value="所有位置" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="SEARCH_SCOPE" value="项目 'course'" />
+    <option name="SEARCH_SCOPE" value="所有位置" />
   </component>
 </application>
