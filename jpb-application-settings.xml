@@ -1,0 +1,5 @@
+<application>
+  <component name="JpaPluginApplicationSettings">
+    <option name="notificationShownTimes" value="1" />
+  </component>
+</application>
