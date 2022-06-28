@@ -68,7 +68,9 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
-  <action id="SearchEverywhere" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="ToggleLineBreakpoint" />
   <action id="UML.ZoomIn" />
   <action id="UpdateRunningApplication">
