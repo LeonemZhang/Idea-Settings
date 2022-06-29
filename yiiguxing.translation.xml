@@ -1,10 +1,11 @@
 <application>
   <component name="AppStorage">
     <option name="newTranslationDialogHeight" value="393" />
-    <option name="newTranslationDialogWidth" value="891" />
+    <option name="newTranslationDialogWidth" value="889" />
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="The target name of the configured property as defined by the JavaBeans specification. The same target property must not be mapped more than once. If used to map an enum constant, the name of the constant member is to be given. In this case, several values from the source enum may be mapped to the same value of the target enum." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using a database identity column." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The AUTO generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Abstract adapter class for the AsyncHandlerInterceptor interface, for simplified implementation of pre-onlypost-only interceptors. 已弃用 as of 5.3 in favor of implementing HandlerInterceptor andor AsyncHandlerInterceptor directly. 自: 05.12.2003 作者: Juergen Hoeller" />
@@ -54,11 +55,10 @@
       <item value="Cannot resolve configuration property 'spring.datasource.dm.driver-class-name'" />
       <item value="Accepts a function that extracts a sort key from a type T, and returns a Comparator that compares by that sort key using the specified Comparator. The returned comparator is serializable if the specified function and comparator are both serializable." />
       <item value="Accepts a function that extracts a sort key from a type T, and returns a Comparator that compares by that sort key using the specified Comparator. The returned comparator is serializable if the specified function and comparator are both serializable. 形参: keyExtractor – the function used to extract the sort key keyComparator – the Comparator used to compare the sort key 返回值: a comparator that compares by an extracted key using the specified Comparator 抛出: NullPointerException – if either argument is null API 说明: For example, to obtain a Comparator that compares Person objects by their last name ignoring case differences," />
-      <item value="the value 0 if the argument string is equal to this string; a value less than 0 if this string is lexicographically less than the string argument; and a value greater than 0 if this string is lexicographically greater than the string argument." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
+        <entry key="CHINESE" value="74" />
         <entry key="ENGLISH" value="68" />
         <entry key="ALBANIAN" value="1" />
       </map>
