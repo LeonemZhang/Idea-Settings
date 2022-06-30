@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="A report with javax.tools.Diagnostic.Kind.ERROR will be created for the given issue, causing the compilation to fail." />
+      <item value="Policy for reporting issues occurring during the generation of a mapper implementation." />
       <item value="e" />
       <item value="The target name of the configured property as defined by the JavaBeans specification. The same target property must not be mapped more than once. If used to map an enum constant, the name of the constant member is to be given. In this case, several values from the source enum may be mapped to the same value of the target enum." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using a database identity column." />
@@ -53,13 +55,11 @@
       <item value="Atomically creates a new, empty file named by this abstract pathname if and only if a file with this name does not yet exist. The check for the existence of the file and the creation of the file if it does not exist are a single operation that is atomic with respect to all other filesystem activities that might affect the file. Note: this method should not be used for file-locking, as the resulting protocol cannot be made to work reliably. The FileLock facility should be used instead." />
       <item value="Returns a reference to the entity with the given identifier. Depending on how the JPA persistence provider is implemented this is very likely to always return an instance and throw an javax.persistence.EntityNotFoundException on first access. Some of them will reject invalid identifiers immediately." />
       <item value="Datasource name to use if &quot;generate-unique-name&quot; is false. Defaults to &quot;testdb&quot; when using an embedded database, otherwise null." />
-      <item value="Cannot resolve configuration property 'spring.datasource.dm.driver-class-name'" />
-      <item value="Accepts a function that extracts a sort key from a type T, and returns a Comparator that compares by that sort key using the specified Comparator. The returned comparator is serializable if the specified function and comparator are both serializable." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="74" />
-        <entry key="ENGLISH" value="68" />
+        <entry key="ENGLISH" value="70" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
