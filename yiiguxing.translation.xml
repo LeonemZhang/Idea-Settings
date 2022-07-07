@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="The simple names of the possible enum values for an expression with the annotated type. 返回值: the simple names of the possible enum values for an expression with the annotated typ" />
+      <item value="An annotation indicating the possible values for an enum type. If an expression's type has this annotation, then at run time, the expression evaluates to one of the enum values named by the arguments. EnumVal uses the simple name of the enum value: the EnumVal type corresponding to MyEnum.MY_VALUE is @EnumVal(&quot;MY_VALUE&quot;). This annotation is treated as StringVal internally by the Constant Value Checker. checker_framework.manual constant-value-checker Constant Value Checker" />
       <item value="A convenience class to represent name-value pairs." />
       <item value="This is the central class in the JDBC core package. It simplifies the use of JDBC and helps to avoid common errors. It executes core JDBC workflow, leaving application code to provide SQL and extract results. This class executes SQL queries or updates, initiating iteration over ResultSets and catching JDBC exceptions and translating them to the generic, more informative exception hierarchy defined in the org.springframework.dao package. Code using this class need only implement callback interfaces, giving them a clearly defined contract. The PreparedStatementCreator callback interface creates a prepared statement given a Connection, providing SQL and any necessary parameters. The ResultSetExtractor interface extracts values from a ResultSet. See also PreparedStatementSetter and RowMapper for two popular alternative callback interfaces. Can be used within a service implementation via direct instantiation with a DataSource reference, or get prepared in an application context and given to services as bean reference. Note: The DataSource should always be configured as a bean in the application context, in the first case given to the service directly, in the second case to the prepared template. Because this class is parameterizable by the callback interfaces and the org.springframework.jdbc.support.SQLExceptionTranslator interface, there should be no need to subclass it. All SQL operations performed by this class are logged at debug level, using &quot;org.springframework.jdbc.core.JdbcTemplate&quot; as log category. NOTE: An instance of this class is thread-safe once configured." />
       <item value="Return the contained value, if present, otherwise throw an exception to be created by the provided supplier. 形参: exceptionSupplier – The supplier which will return the exception to be thrown 返回值: the present value 抛出: X – if there is no value present NullPointerException – if no value is present and exceptionSupplier is null API 说明: A method reference to the exception constructor with an empty argument list can be used as the supplier. For example, IllegalStateException::new" />
@@ -53,19 +55,17 @@
       <item value="For parallel stream pipelines, the action may be called at whatever time and in whatever thread the element is made available by the upstream operation. If the action modifies shared state, it is responsible for providing the required synchronization." />
       <item value="parallel" />
       <item value="consisting" />
-      <item value="Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are consumed from the resulting stream. This is an intermediate operation. For parallel stream pipelines, the action may be called at whatever time and in whatever thread the element is made available by the upstream operation. If the action modifies shared state, it is responsible for providing the required synchronization." />
-      <item value="Sends an error response to the client using the specified status code and clears the output buffer. The server defaults to creating the response to look like an HTML-formatted server error page containing the specified message, setting the content type to &quot;texthtml&quot;, leaving cookies and other headers unmodified. If an error-page declaration has been made for the web application corresponding to the status code passed in, it will be served back in preference to the suggested msg parameter. If the response has already been committed, this method throws an IllegalStateException. After using this method, the response should be considered to be committed and should not be written t" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="75" />
-        <entry key="ENGLISH" value="74" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="77" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1656310467175" />
+    <option name="lastTrimTime" value="1657183964728" />
   </component>
 </application>
