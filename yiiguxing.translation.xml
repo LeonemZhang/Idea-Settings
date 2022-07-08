@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="General-purpose annotation used for configuring details of how values of properties are to be serialized. Unlike most other Jackson annotations, annotation does not have specific universal interpretation: instead, effect depends on datatype of property being annotated (or more specifically, deserializer and serializer being used). Common uses include choosing between alternate representations -- for example, whether java.util.Date is to be serialized as number (Java timestamp) or String (such as ISO-8601 compatible time value) -- as well as configuring exact details with pattern property. As of Jackson 2.6, known special handling includes: java.util.Date: Shape can be JsonFormat.Shape.STRING or JsonFormat.Shape.NUMBER; pattern may contain java.text.SimpleDateFormat-compatible pattern definition. Can be used on Classes (types) as well, for modified default behavior, possibly overridden by per-property annotation Enums: Shapes JsonFormat.Shape.STRING and JsonFormat.Shape.NUMBER can be used to change between numeric (index) and textual (name or toString()); but it is also possible to use JsonFormat.Shape.OBJECT to serialize (but not deserialize) Enums as JSON Objects (as if they were POJOs). NOTE: serialization as JSON Object only works with class annotation; will not work as per-property annotation. java.util.Collections can be serialized as (and deserialized from) JSON Objects, if JsonFormat.Shape.OBJECT is used. NOTE: can ONLY be used as class annotation; will not work as per-property annotation. Number subclasses can be serialized as full objects if JsonFormat.Shape.OBJECT is used. Otherwise the default behavior of serializing to a scalar number value will be preferred. NOTE: can ONLY be used as class annotation; will not work as per-property annotation." />
+      <item value="Create a disjunction of the given restriction predicates. A disjunction of zero predicates is false." />
       <item value="The simple names of the possible enum values for an expression with the annotated type. 返回值: the simple names of the possible enum values for an expression with the annotated typ" />
       <item value="An annotation indicating the possible values for an enum type. If an expression's type has this annotation, then at run time, the expression evaluates to one of the enum values named by the arguments. EnumVal uses the simple name of the enum value: the EnumVal type corresponding to MyEnum.MY_VALUE is @EnumVal(&quot;MY_VALUE&quot;). This annotation is treated as StringVal internally by the Constant Value Checker. checker_framework.manual constant-value-checker Constant Value Checker" />
       <item value="A convenience class to represent name-value pairs." />
@@ -53,13 +55,11 @@
       <item value="Returns a stream consisting of the results of applying the given function to the elements of this stream." />
       <item value="Returns an LongStream consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element. Each mapped stream is closed after its contents have been placed into this stream. (If a mapped stream is null an empty stream is used, instead.)" />
       <item value="For parallel stream pipelines, the action may be called at whatever time and in whatever thread the element is made available by the upstream operation. If the action modifies shared state, it is responsible for providing the required synchronization." />
-      <item value="parallel" />
-      <item value="consisting" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="77" />
+        <entry key="CHINESE" value="78" />
+        <entry key="ENGLISH" value="79" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
