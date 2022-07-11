@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="The target name of the configured property as defined by the JavaBeans specification. The same target property must not be mapped more than once. If used to map an enum constant, the name of the constant member is to be given. In this case, several values from the source enum may be mapped to the same value of the target enum." />
       <item value="Set the time the Trigger should start at to the current moment - the trigger may or may not fire at this time - depending upon the schedule configured for the Trigger." />
       <item value="Set the time the Trigger should start at - the trigger may or may not fire at this time - depending upon the schedule configured for the Trigger. However the Trigger will NOT fire before this time, regardless of the Trigger's schedule." />
       <item value="General-purpose annotation used for configuring details of how values of properties are to be serialized. Unlike most other Jackson annotations, annotation does not have specific universal interpretation: instead, effect depends on datatype of property being annotated (or more specifically, deserializer and serializer being used). Common uses include choosing between alternate representations -- for example, whether java.util.Date is to be serialized as number (Java timestamp) or String (such as ISO-8601 compatible time value) -- as well as configuring exact details with pattern property. As of Jackson 2.6, known special handling includes: java.util.Date: Shape can be JsonFormat.Shape.STRING or JsonFormat.Shape.NUMBER; pattern may contain java.text.SimpleDateFormat-compatible pattern definition. Can be used on Classes (types) as well, for modified default behavior, possibly overridden by per-property annotation Enums: Shapes JsonFormat.Shape.STRING and JsonFormat.Shape.NUMBER can be used to change between numeric (index) and textual (name or toString()); but it is also possible to use JsonFormat.Shape.OBJECT to serialize (but not deserialize) Enums as JSON Objects (as if they were POJOs). NOTE: serialization as JSON Object only works with class annotation; will not work as per-property annotation. java.util.Collections can be serialized as (and deserialized from) JSON Objects, if JsonFormat.Shape.OBJECT is used. NOTE: can ONLY be used as class annotation; will not work as per-property annotation. Number subclasses can be serialized as full objects if JsonFormat.Shape.OBJECT is used. Otherwise the default behavior of serializing to a scalar number value will be preferred. NOTE: can ONLY be used as class annotation; will not work as per-property annotation." />
@@ -17,7 +18,6 @@
       <item value="A report with javax.tools.Diagnostic.Kind.ERROR will be created for the given issue, causing the compilation to fail." />
       <item value="Policy for reporting issues occurring during the generation of a mapper implementation." />
       <item value="e" />
-      <item value="The target name of the configured property as defined by the JavaBeans specification. The same target property must not be mapped more than once. If used to map an enum constant, the name of the constant member is to be given. In this case, several values from the source enum may be mapped to the same value of the target enum." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using a database identity column." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The AUTO generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Abstract adapter class for the AsyncHandlerInterceptor interface, for simplified implementation of pre-onlypost-only interceptors. 已弃用 as of 5.3 in favor of implementing HandlerInterceptor andor AsyncHandlerInterceptor directly. 自: 05.12.2003 作者: Juergen Hoeller" />
@@ -58,8 +58,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="80" />
-        <entry key="ENGLISH" value="81" />
+        <entry key="CHINESE" value="81" />
+        <entry key="ENGLISH" value="82" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
