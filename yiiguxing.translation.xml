@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="A qualifier can be specified to aid the selection process of a suitable mapper. This is useful in case multiple mapping methods (hand written or generated) qualify and thus would result in an 'Ambiguous mapping methods found' error. A qualifier is a custom annotation and can be placed on a hand written mapper class or a method. Note that defaultValue() usage will also be converted using this qualifier. 返回值: the qualifiers" />
+      <item value="Whether the property specified via target() should be ignored by the generated mapping method or not. This can be useful when certain attributes should not be propagated from source or target or when properties in the target object are populated using a decorator and thus would be reported as unmapped target property by default. 返回值: true if the given property should be ignored, false" />
       <item value="The target name of the configured property as defined by the JavaBeans specification. The same target property must not be mapped more than once. If used to map an enum constant, the name of the constant member is to be given. In this case, several values from the source enum may be mapped to the same value of the target enum." />
       <item value="Set the time the Trigger should start at to the current moment - the trigger may or may not fire at this time - depending upon the schedule configured for the Trigger." />
       <item value="Set the time the Trigger should start at - the trigger may or may not fire at this time - depending upon the schedule configured for the Trigger. However the Trigger will NOT fire before this time, regardless of the Trigger's schedule." />
@@ -53,13 +55,11 @@
       <item value="Ensure that a memory based package part does not have lingering data from previous commit() calls. Note: This is overwritten for some objects, as PictureData seem to store the actual content in the part directly without keeping a copy like all others therefore we need to handle them differently." />
       <item value="Sets the content type of the response being sent to the client, if the response has not been committed yet. The given content type may include a character encoding specification, for example, texthtml;charset=UTF-8. The response's character encoding is only set from the given content type if this method is called before getWriter is called. This method may be called repeatedly to change content type and character encoding. This method has no effect if called after the response has been committed. It does not set the response's character encoding if it is called after getWriter has been called or after the response has been committed. Containers must communicate the content type and the character encoding used for the servlet response's writer to the client if the protocol provides a way for doing so. In the case of HTTP, the Content-Type header is used." />
       <item value="set Header" />
-      <item value="Decodes a Base64 encoded String into a newly-allocated byte array using the Base64 encoding scheme. An invocation of this method has exactly the same effect as invoking decode(src.getBytes(StandardCharsets.ISO_8859_1))" />
-      <item value="Returns a stream consisting of the results of applying the given function to the elements of this stream." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="81" />
-        <entry key="ENGLISH" value="82" />
+        <entry key="CHINESE" value="83" />
+        <entry key="ENGLISH" value="84" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
