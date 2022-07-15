@@ -13,10 +13,6 @@
     <keyboard-shortcut first-keystroke="alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 0" />
-    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
-  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
@@ -28,6 +24,10 @@
   <action id="Debug" />
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control alt button1" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
