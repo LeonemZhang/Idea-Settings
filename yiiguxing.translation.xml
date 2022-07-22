@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="Returns a copy of this LocalDateTime with the day-of-month altered. If the resulting date-time is invalid, an exception is thrown. The time does not affect the calculation and will be the same in the result. This instance is immutable and unaffected by this method call." />
       <item value="Returns a stream consisting of the results of applying the given function to the elements of this stream." />
       <item value="Deletes the file or directory denoted by this abstract pathname. If this pathname denotes a directory, then the directory must be empty in order to be deleted. Note that the java.nio.file.Files class defines the delete method to throw an IOException when a file cannot be deleted. This is useful for error reporting and to diagnose why a file cannot be deleted." />
       <item value="Copy the property values of the given source bean into the target bean. Note: The source and target classes do not have to match or even be derived from each other, as long as the properties match. Any bean properties that the source bean exposes but the target bean does not will silently be ignored. This is just a convenience method. For more complex transfer needs, consider using a full BeanWrapper. 形参: source – the source bean target – the target bean 抛出: BeansException – if the copying failed" />
@@ -54,12 +55,11 @@
       <item value="The custom pattern to use to format the field or method parameter. Defaults to empty String, indicating no custom pattern String has been specified. Set this attribute when you wish to format your field or method parameter in accordance with a custom date time pattern not represented by a style or ISO format. Note: This pattern follows the original java.text.SimpleDateFormat style, as also supported by Joda-Time, with strict parsing semantics towards overflows (e.g. rejecting a Feb 29 value for a non-leap-year). As a consequence, 'yy' characters indicate a year in the traditional style, not a &quot;year-of-era&quot; as in the java.time.format.DateTimeFormatter specification (i.e. 'yy' turns into 'uu' when going through a DateTimeFormatter with strict resolution mode)." />
       <item value="The annotated element has to be in the appropriate range. Apply on numeric values or string representation of the numeric value." />
       <item value="Note that double and float are not supported due to rounding errors (some providers might provide some approximative support)." />
-      <item value="The annotated element must be a number whose value must be higher or equal to the specified minimum. Supported types are: BigDecimal BigInteger byte, short, int, long, and their respective wrappers Note that double and float are not supported due to rounding errors (some providers might provide some approximative support). null elements are considered valid. 作者: Emmanuel Bernard" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="106" />
+        <entry key="ENGLISH" value="107" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
