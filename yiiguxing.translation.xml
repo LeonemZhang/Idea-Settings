@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="This annotation may be used on a field or parameter as a qualifier for candidate beans when autowiring. It may also be used to annotate other custom annotations that can then in turn be used as qualifiers." />
+      <item value="Indicates that a bean should be given preference when multiple candidates are qualified to autowire a single-valued dependency. If exactly one 'primary' bean exists among the candidates, it will be the autowired value. This annotation is semantically equivalent to the &lt;bean&gt; element's primary attribute in Spring XML. May be used on any class directly or indirectly annotated with @Component or on methods annotated with @Bean." />
       <item value="Create a predicate to test whether the expression is a member of the argument list." />
       <item value="This annotation must be specified for persistent fields or properties of type java.util.Date and java.util.Calendar. It may only be specified for fields or properties of these types. The Temporal annotation may be used in conjunction with the Basic annotation, the Id annotation, or the ElementCollection annotation (when the element collection value is of such a temporal type." />
       <item value="Returns a copy of this LocalDateTime with the day-of-month altered. If the resulting date-time is invalid, an exception is thrown. The time does not affect the calculation and will be the same in the result. This instance is immutable and unaffected by this method call." />
@@ -53,19 +55,17 @@
       <item value="Provides base features for Java EEJakarta EE technologies: artifacts, dedicated tool window and project templates." />
       <item value="Provides a possibility to evaluate XPath expressions against any XML document opened in IDEA. It can also generate and show an XPath expression that matches the current node. Adds syntax highlighting, analysis, completion, navigation and refactoring of XPath expressions and named templates for XSLT documents." />
       <item value="Constructs a Time object using a milliseconds time value. 形参: time – milliseconds since January 1, 1970, 00:00:00 GMT; a negative number is milliseconds before January 1, 1970, 00:00:00 GMT" />
-      <item value="Returns, if this stream is ordered, a stream consisting of the remaining elements of this stream after dropping the longest prefix of elements that match the given predicate. Otherwise returns, if this stream is unordered, a stream consisting of the remaining elements of this stream after dropping a subset of elements that match the given predicate. If this stream is ordered then the longest prefix is a contiguous sequence of elements of this stream that match the given predicate. The first element of the sequence is the first element of this stream, and the element immediately following the last element of the sequence does not match the given predicate. If this stream is unordered, and some (but not all) elements of this stream match the given predicate, then the behavior of this operation is nondeterministic; it is free to drop any subset of matching elements (which includes the empty set). Independent of whether this stream is ordered or unordered if all elements of this stream match the given predicate then this operation drops all elements (the result is an empty stream), or if no elements of the stream match the given predicate then no elements are dropped (the result is the same as the input)." />
-      <item value="The custom pattern to use to format the field or method parameter. Defaults to empty String, indicating no custom pattern String has been specified. Set this attribute when you wish to format your field or method parameter in accordance with a custom date time pattern not represented by a style or ISO format. Note: This pattern follows the original java.text.SimpleDateFormat style, as also supported by Joda-Time, with strict parsing semantics towards overflows (e.g. rejecting a Feb 29 value for a non-leap-year). As a consequence, 'yy' characters indicate a year in the traditional style, not a &quot;year-of-era&quot; as in the java.time.format.DateTimeFormatter specification (i.e. 'yy' turns into 'uu' when going through a DateTimeFormatter with strict resolution mode)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="108" />
-        <entry key="ENGLISH" value="109" />
+        <entry key="CHINESE" value="110" />
+        <entry key="ENGLISH" value="111" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1659062728225" />
+    <option name="lastTrimTime" value="1659578571099" />
   </component>
 </application>
