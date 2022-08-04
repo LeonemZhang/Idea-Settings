@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="Whether or not the Job should remain stored after it is orphaned (no Triggers point to it). If not explicitly set, the default value is false - this method sets the value to true." />
       <item value="This annotation may be used on a field or parameter as a qualifier for candidate beans when autowiring. It may also be used to annotate other custom annotations that can then in turn be used as qualifiers." />
       <item value="Indicates that a bean should be given preference when multiple candidates are qualified to autowire a single-valued dependency. If exactly one 'primary' bean exists among the candidates, it will be the autowired value. This annotation is semantically equivalent to the &lt;bean&gt; element's primary attribute in Spring XML. May be used on any class directly or indirectly annotated with @Component or on methods annotated with @Bean." />
       <item value="Create a predicate to test whether the expression is a member of the argument list." />
@@ -23,7 +24,6 @@
       <item value="The maximum number of results the query object was set to retrieve. Returns Integer.MAX_VALUE if setMaxResults was not applied to the query object." />
       <item value="Set the maximum number of results to retrieve" />
       <item value="Remove the indicated Trigger from the scheduler. If the related job does not have any other triggers, and the job is not durable, then the job will also be deleted." />
-      <item value="Whether or not the Job should remain stored after it is orphaned (no Triggers point to it). If not explicitly set, the default value is false - this method sets the value to true." />
       <item value="Set the time the Trigger should start at to the current moment - the trigger may or may not fire at this time - depending upon the schedule configured for the Trigger." />
       <item value="Set the time the Trigger should start at - the trigger may or may not fire at this time - depending upon the schedule configured for the Trigger. However the Trigger will NOT fire before this time, regardless of the Trigger's schedule. 形参: triggerStartTime – the start time for the Trigger." />
       <item value="A constant Trigger group name used internally by the scheduler - clients should not use the value of this constant (&quot;FAILED_OVER_JOBS&quot;) for the name of a Trigger's group." />
@@ -58,8 +58,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="110" />
-        <entry key="ENGLISH" value="111" />
+        <entry key="CHINESE" value="111" />
+        <entry key="ENGLISH" value="112" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
