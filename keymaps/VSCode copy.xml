@@ -3,6 +3,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="ActivateProjectToolWindow" />
+  <action id="ActivateRunToolWindow" />
   <action id="Adtui.ZoomInAction">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -33,6 +34,9 @@
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl numpad3" />
   </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
     <keyboard-shortcut first-keystroke="shift tab" />
@@ -57,6 +61,7 @@
   </action>
   <action id="Graph.RouteEdges" />
   <action id="Images.Editor.ZoomIn" />
+  <action id="Markdown.Styling.CreateLink" />
   <action id="Maven.ExpandAll" />
   <action id="PinBalloonAction">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
