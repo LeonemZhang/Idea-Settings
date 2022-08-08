@@ -3,8 +3,10 @@
     <option name="ACTIVATE_RIGHT_EDITOR_ON_CLOSE" value="true" />
     <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="30" />
+    <option name="EDITOR_TAB_PLACEMENT" value="2" />
     <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
     <option name="SHOW_PINNED_TABS_IN_A_SEPARATE_ROW" value="true" />
+    <option name="SORT_TABS_ALPHABETICALLY" value="true" />
     <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
   </component>
 </application>
