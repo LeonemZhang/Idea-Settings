@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="Generates a no-args constructor. Will generate an error message if such a constructor cannot be written due to the existence of final fields. Complete documentation is found at the project lombok features page for @Constructor . Even though it is not listed, this annotation also has the onConstructor parameter. See the full documentation for more details. NB: Fields with constraints such as @NonNull will NOT be checked in a @NoArgsConstructor constructor, of course!" />
       <item value="小数位" />
       <item value="Whether or not the Job should remain stored after it is orphaned (no Triggers point to it). If not explicitly set, the default value is false - this method sets the value to true." />
       <item value="This annotation may be used on a field or parameter as a qualifier for candidate beans when autowiring. It may also be used to annotate other custom annotations that can then in turn be used as qualifiers." />
@@ -54,18 +55,17 @@
       <item value="Qodana: The code quality platform for your favorite CI Qodana is a code quality monitoring platform that brings into your CICD pipelines all the smart features you love in the JetBrains IDEs as well as project-level checks like clone detection and license audit. Explore Qodana The plugin provides a link between a Qodana and your project opened in an IDE: Open Qodana static analysis SARIF report and view the issues detected by a Qodana linter Use the &quot;Open in IDE&quot; functionality provided by the Qodana UI" />
       <item value="Intelligent spelling and grammar checks for any text you write in the IDE. Supports over 20 languages, including English, German, Russian, and Chinese. English is enabled by default. To add other languages, open SettingsPreferences | Editor | Natural Languages. Works with natural languages in programming language constructs (Python, Java, and others), markup languages (Markdown, HTML, XML, and others), comments, and commit messages. Uses LanguageTool as its proofreading engine. Data privacy: all verification is performed locally, inside your IDE." />
       <item value="Provides base features for Java EEJakarta EE technologies: artifacts, dedicated tool window and project templates." />
-      <item value="Provides a possibility to evaluate XPath expressions against any XML document opened in IDEA. It can also generate and show an XPath expression that matches the current node. Adds syntax highlighting, analysis, completion, navigation and refactoring of XPath expressions and named templates for XSLT documents." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="112" />
-        <entry key="ENGLISH" value="112" />
+        <entry key="ENGLISH" value="113" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1659578571099" />
+    <option name="lastTrimTime" value="1660119429963" />
   </component>
 </application>
