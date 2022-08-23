@@ -59,6 +59,11 @@
     <keyboard-shortcut first-keystroke="alt right" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
+  <action id="GotoTypeDeclaration" />
   <action id="Graph.RouteEdges" />
   <action id="Images.Editor.ZoomIn" />
   <action id="Markdown.Styling.CreateLink" />
