@@ -1,0 +1,22 @@
+<application>
+  <component name="aws">
+    <option name="promptedForTelemetry" value="true" />
+  </component>
+  <component name="codewhispererSettings">
+    <option name="value">
+      <map>
+        <entry key="IsIncludeCodeWithReference" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="codewhispererStates">
+    <option name="token" value="eyJraWQiOiIwOTdkM2EyMi1hNjkzLTQ2YzktODQyYy05YTMxZmFlYzAwMjYiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXBlIjoiQUNDRVNTX1RPS0VOIiwiZXhwIjoxNjg3MzA1NjAwLCJ1dWlkIjoiNmFmMjJlZTUtZDdkZi00ZWU1LTljMDItMTU1ZmNmMzIzMzIwIiwiaWF0IjoxNjYxMzA3MzM4LCJlbWFpbCI6Ijc2NDU4MDYzNkBxcS5jb20ifQ.K9CaKJI-VgM-zkO1f-q31W4O7ytPoZpxLPbmHG1HvIw" />
+    <option name="value">
+      <map>
+        <entry key="IsAutoEnabled" value="true" />
+        <entry key="IsManualEnabled" value="true" />
+        <entry key="HasAcceptedTermsOfServices" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
