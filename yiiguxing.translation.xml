@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="The Observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern. The Observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits. &lt;p&gt;In this example {@link Weather} has a state that can be observed. The {@link Orcs} and {@link Hobbits} register as observers and receive notifications when the {@link Weather} changes." />
       <item value="fromIndex – low endpoint (inclusive) of the subList toIndex – high endpoint (exclusive) of the subList" />
       <item value="Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive. (If fromIndex and toIndex are equal, the returned list is empty.) The returned list is backed by this list, so non-structural changes in the returned list are reflected in this list, and vice-versa. The returned list supports all of the optional list operations supported by this list. This method eliminates the need for explicit range operations (of the sort that commonly exist for arrays). Any operation that expects a list can be used as a range operation by passing a subList view instead of a whole list. For example, the following idiom removes a range of elements from a list: list.subList(from, to).clear(); Similar idioms may be constructed for indexOf and lastIndexOf, and all of the algorithms in the Collections class can be applied to a subList. The semantics of the list returned by this method become undefined if the backing list (i.e., this list) is structurally modified in any way other than via the returned list. (Structural modifications are those that change the size of this list, or otherwise perturb it in such a fashion that iterations in progress may yield incorrect results.)" />
       <item value="Creates a string representation of this Date object in an implementation-dependent form. The intent is that the form should be familiar to the user of the Java application, wherever it may happen to be running. The intent is comparable to that of the &quot;%c&quot; format supported by the strftime() function of ISO C." />
@@ -54,18 +55,17 @@
       <item value="Indicates that the persistence provider must assign primary keys for the entity using a database identity column." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The AUTO generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Abstract adapter class for the AsyncHandlerInterceptor interface, for simplified implementation of pre-onlypost-only interceptors. 已弃用 as of 5.3 in favor of implementing HandlerInterceptor andor AsyncHandlerInterceptor directly. 自: 05.12.2003 作者: Juergen Hoeller" />
-      <item value="Whether the browser should send credentials, such as cookies along with cross domain requests, to the annotated endpoint. The configured value is set on the Access-Control-Allow-Credentials response header of preflight requests. NOTE: Be aware that this option establishes a high level of trust with the configured domains and also increases the surface attack of the web application by exposing sensitive user-specific information such as cookies and CSRF tokens. By default this is not set in which case the Access-Control-Allow-Credentials header is also not set and credentials are therefore not allowed." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="116" />
-        <entry key="ENGLISH" value="117" />
+        <entry key="CHINESE" value="117" />
+        <entry key="ENGLISH" value="118" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1660647374902" />
+    <option name="lastTrimTime" value="1661686774780" />
   </component>
 </application>
