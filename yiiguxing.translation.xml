@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="Adds modifiers to each field in the type with this annotation. Complete documentation is found at the project lombok features page for @FieldDefaults . If makeFinal is true, then each (instance) field that is not annotated with @NonFinal will have the final modifier added. If level is set, then each (instance) field that is package private (i.e. no access modifier) and does not have the @PackagePrivate annotation will have the appropriate access level modifier added." />
+      <item value="Generates a lot of code which fits with a class that is a representation of an immutable entity. Equivalent to @Getter @FieldDefaults(makeFinal=true, level=AccessLevel.PRIVATE) @AllArgsConstructor @ToString @EqualsAndHashCode." />
       <item value="Specifies a single-valued association to another entity class that has many-to-one multiplicity. It is not normally necessary to specify the target entity explicitly since it can usually be inferred from the type of the object being referenced. If the relationship is bidirectional, the non-owning OneToMany entity side must used the mappedBy element to specify the relationship field or property of the entity that is the owner of the relationship. The ManyToOne annotation may be used within an embeddable class to specify a relationship from the embeddable class to an entity class. If the relationship is bidirectional, the non-owning OneToMany entity side must use the mappedBy element of the OneToMany annotation to specify the relationship field or property of the embeddable field or property on the owning side of the relationship. The dot (&quot;.&quot;) notation syntax must be used in the mappedBy element to indicate the relationship attribute within the embedded attribute. The value of each identifier used with the dot notation is the name of the respective embedded field or property." />
       <item value="@Data' is only supported on a class type" />
       <item value="the value 0 if the argument string is equal to this string; a value less than 0 if this string is lexicographically less than the string argument; and a value greater than 0 if this string is lexicographically greater than the string argument." />
@@ -53,19 +55,17 @@
       <item value="The simple names of the possible enum values for an expression with the annotated type. 返回值: the simple names of the possible enum values for an expression with the annotated typ" />
       <item value="An annotation indicating the possible values for an enum type. If an expression's type has this annotation, then at run time, the expression evaluates to one of the enum values named by the arguments. EnumVal uses the simple name of the enum value: the EnumVal type corresponding to MyEnum.MY_VALUE is @EnumVal(&quot;MY_VALUE&quot;). This annotation is treated as StringVal internally by the Constant Value Checker. checker_framework.manual constant-value-checker Constant Value Checker" />
       <item value="A convenience class to represent name-value pairs." />
-      <item value="This is the central class in the JDBC core package. It simplifies the use of JDBC and helps to avoid common errors. It executes core JDBC workflow, leaving application code to provide SQL and extract results. This class executes SQL queries or updates, initiating iteration over ResultSets and catching JDBC exceptions and translating them to the generic, more informative exception hierarchy defined in the org.springframework.dao package. Code using this class need only implement callback interfaces, giving them a clearly defined contract. The PreparedStatementCreator callback interface creates a prepared statement given a Connection, providing SQL and any necessary parameters. The ResultSetExtractor interface extracts values from a ResultSet. See also PreparedStatementSetter and RowMapper for two popular alternative callback interfaces. Can be used within a service implementation via direct instantiation with a DataSource reference, or get prepared in an application context and given to services as bean reference. Note: The DataSource should always be configured as a bean in the application context, in the first case given to the service directly, in the second case to the prepared template. Because this class is parameterizable by the callback interfaces and the org.springframework.jdbc.support.SQLExceptionTranslator interface, there should be no need to subclass it. All SQL operations performed by this class are logged at debug level, using &quot;org.springframework.jdbc.core.JdbcTemplate&quot; as log category. NOTE: An instance of this class is thread-safe once configured." />
-      <item value="Return the contained value, if present, otherwise throw an exception to be created by the provided supplier. 形参: exceptionSupplier – The supplier which will return the exception to be thrown 返回值: the present value 抛出: X – if there is no value present NullPointerException – if no value is present and exceptionSupplier is null API 说明: A method reference to the exception constructor with an empty argument list can be used as the supplier. For example, IllegalStateException::new" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="122" />
-        <entry key="ENGLISH" value="121" />
+        <entry key="CHINESE" value="123" />
+        <entry key="ENGLISH" value="122" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1661311015748" />
+    <option name="lastTrimTime" value="1661754999360" />
   </component>
 </application>
