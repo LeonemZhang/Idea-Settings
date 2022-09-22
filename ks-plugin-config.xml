@@ -1,0 +1,44 @@
+<application>
+  <component name="KSEditorSettings">
+    <option name="algorithm">
+      <Option>
+        <option name="active" value="true" />
+        <option name="index" value="4" />
+        <option name="typeClass" value="STRING" />
+        <option name="optionType" value="ALGORITHM" />
+      </Option>
+    </option>
+    <option name="certificateExpiry">
+      <Option>
+        <option name="active" value="true" />
+        <option name="index" value="6" />
+        <option name="typeClass" value="DATE" />
+        <option name="optionType" value="CERTIFICATE_EXPIRY" />
+      </Option>
+    </option>
+    <option name="entryName">
+      <Option>
+        <option name="active" value="true" />
+        <option name="index" value="3" />
+        <option name="typeClass" value="STRING" />
+        <option name="optionType" value="ENTRY_NAME" />
+      </Option>
+    </option>
+    <option name="keySize">
+      <Option>
+        <option name="active" value="true" />
+        <option name="index" value="5" />
+        <option name="typeClass" value="INTEGER" />
+        <option name="optionType" value="KEY_SIZE" />
+      </Option>
+    </option>
+    <option name="lastModified">
+      <Option>
+        <option name="active" value="true" />
+        <option name="index" value="7" />
+        <option name="typeClass" value="DATE" />
+        <option name="optionType" value="LAST_MODIFIED" />
+      </Option>
+    </option>
+  </component>
+</application>
