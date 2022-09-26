@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="520" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="@SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that statements in your method body declare they generate. @SneakyThrow does not silently swallow, wrap into RuntimeException, or otherwise modify any exceptions of the listed checked exception types. The JVM does not check for the consistency of the checked exception system; javac does, and this annotation lets you opt out of its mechanism. Complete documentation is found at the project lombok features page for @SneakyThrows ." />
       <item value="Add the given JobDetail to the Scheduler, and associate the given Trigger with it. If the given Trigger does not reference any Job, then it will be set to reference the Job passed with it into this method." />
       <item value="the value 0 if the argument Date is equal to this Date; a value less than 0 if this Date is before the Date argument; and a value greater than 0 if this Date is after the Date argument." />
       <item value="Creates a string representation of this Date object in an implementation-dependent form. The intent is that the form should be familiar to the user of the Java application, wherever it may happen to be running. The intent is comparable to that of the &quot;%c&quot; format supported by the strftime() function of ISO C. 已弃用 As of JDK version 1.1, replaced by DateFormat.format(Date date). 返回值: a string representation of this date, using the locale conventions." />
@@ -54,12 +55,11 @@
       <item value="A constant JobDataMap key that can be used to retrieve the group of the original Trigger from a recovery trigger's data map in the case of a job recovering after a failed scheduler instance." />
       <item value="A qualifier can be specified to aid the selection process of a suitable mapper. This is useful in case multiple mapping methods (hand written or generated) qualify and thus would result in an 'Ambiguous mapping methods found' error. A qualifier is a custom annotation and can be placed on a hand written mapper class or a method. Note that defaultValue() usage will also be converted using this qualifier. 返回值: the qualifiers" />
       <item value="Whether the property specified via target() should be ignored by the generated mapping method or not. This can be useful when certain attributes should not be propagated from source or target or when properties in the target object are populated using a decorator and thus would be reported as unmapped target property by default. 返回值: true if the given property should be ignored, false" />
-      <item value="The target name of the configured property as defined by the JavaBeans specification. The same target property must not be mapped more than once. If used to map an enum constant, the name of the constant member is to be given. In this case, several values from the source enum may be mapped to the same value of the target enum." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="128" />
-        <entry key="ENGLISH" value="129" />
+        <entry key="CHINESE" value="129" />
+        <entry key="ENGLISH" value="130" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
