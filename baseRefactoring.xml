@@ -1,5 +1,6 @@
 <application>
   <component name="RefactoringSettings">
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="RENAME_ACCESSORS" value="false" />
   </component>
 </application>
