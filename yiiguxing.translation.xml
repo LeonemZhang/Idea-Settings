@@ -1,10 +1,11 @@
 <application>
   <component name="AppStorage">
     <option name="newTranslationDialogHeight" value="393" />
-    <option name="newTranslationDialogWidth" value="887" />
-    <option name="newTranslationDialogX" value="520" />
-    <option name="newTranslationDialogY" value="450" />
+    <option name="newTranslationDialogWidth" value="885" />
+    <option name="newTranslationDialogX" value="516" />
+    <option name="newTranslationDialogY" value="313" />
     <histories>
+      <item value="This feature is available only with commercial subscription. This exception occurs when your JPA entities cannot be mapped to the database tables and fields properly. JPA Buddy provides an extremely useful feature that can easily resolve this issue. Generate DDL to fill up the difference between JPA entities and the database right from the stack trace! Then check the resulting script, run it and start the application again. The same issue could be solved by setting the ddl-auto or hbm2ddl properties to regenerate the database or update it. However, this solution has signigicant limitations. Follow the video below to learn about these limitations and better solution proposed by JPA Buddy. Watch this short video to see the feature in action. You have the following options to enable paid features right now: If you haven't requested a 30-day trial before, you can get it right now and try this functionality for free. Follow this link to learn more about getting trial. If you already used the trial, you can purchase the subscription. Find the step-by-step purchase guide in our documentation. If you are a student or a teacher and want to use JPA Buddy for academic purposes, see how to get a free license. There are a few options to get a promo for free use after the trial. Learn about them here." />
       <item value="Sorts the specified array into ascending numerical order. Implementation note: The sorting algorithm is a Dual-Pivot Quicksort by Vladimir Yaroslavskiy, Jon Bentley, and Joshua Bloch. This algorithm offers O(n log(n)) performance on many data sets that cause other quicksorts to degrade to quadratic performance, and is typically faster than traditional (one-pivot) Quicksort implementations. 形参: a – the array to be sorted" />
       <item value="Sorting methods. Note that all public &quot;sort&quot; methods take the same form: Performing argument checks if necessary, and then expanding arguments into those required for the internal implementation methods residing in other package-private classes (except for legacyMergeSort, included in this class)." />
       <item value="@SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that statements in your method body declare they generate. @SneakyThrow does not silently swallow, wrap into RuntimeException, or otherwise modify any exceptions of the listed checked exception types. The JVM does not check for the consistency of the checked exception system; javac does, and this annotation lets you opt out of its mechanism. Complete documentation is found at the project lombok features page for @SneakyThrows ." />
@@ -54,11 +55,10 @@
       <item value="A constant Trigger group name used internally by the scheduler - clients should not use the value of this constant (&quot;FAILED_OVER_JOBS&quot;) for the name of a Trigger's group." />
       <item value="A constant Trigger group name used internally by the scheduler - clients should not use the value of this constant (&quot;RECOVERING_JOBS&quot;) for the name of a Trigger's group." />
       <item value="A (possibly) useful constant that can be used for specifying the group that Job and Trigger instances belong to." />
-      <item value="A constant JobDataMap key that can be used to retrieve the group of the original Trigger from a recovery trigger's data map in the case of a job recovering after a failed scheduler instance." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="129" />
+        <entry key="CHINESE" value="130" />
         <entry key="ENGLISH" value="130" />
         <entry key="ALBANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
